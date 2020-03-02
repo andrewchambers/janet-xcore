@@ -1,6 +1,6 @@
 # janet-xcore
 
-Proposed and experimental additions to the janet stdlibrary.
+Rejected, proposed and/or experimental additions to the janet stdlibrary.
 
 # Usage
 
@@ -18,6 +18,8 @@ Proposed and experimental additions to the janet stdlibrary.
 ```
 
 ## error-match
+
+https://github.com/janet-lang/janet/issues/289
 
 ```
   (error-match (foobar)
