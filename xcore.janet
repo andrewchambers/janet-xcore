@@ -21,3 +21,9 @@
         ,(tuple
           'match ~[:error ,err]
           ;(array/concat @[] cases [~[:error ,v] ~(propagate ,err ,f)]))))))
+
+(defmacro chr
+  [c]
+  (unless (and (string? c) (= (length c) 1))
+    (error "chr only accepts strings of length 1"))
+  (c 0))

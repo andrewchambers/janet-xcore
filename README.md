@@ -26,3 +26,10 @@ https://github.com/janet-lang/janet/issues/289
     [:ok v] v
     ([:error err] (predicate? err)) nil)
 ```
+
+## chr
+
+```
+(chr "a")
+97
+```
